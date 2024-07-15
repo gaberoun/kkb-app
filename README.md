@@ -1,4 +1,4 @@
-# PeraShare Frontend App
+# PeraShare
 a KKB app that uses an API to handle user requests 
 
 ### Functions

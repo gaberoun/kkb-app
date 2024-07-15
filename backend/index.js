@@ -32,6 +32,7 @@ app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/groups", groupRoutes);
 app.use("/api/v1/transactions", transactionRoutes);
 app.use("/api/v1/payments", paymentRoutes);
+app.use("/", (request, response) => response.send({ app: "perashare" }));
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
